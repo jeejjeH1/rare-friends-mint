@@ -1,0 +1,17 @@
+{
+  "name": "rare-friends-mint-bot",
+  "version": "1.0.0",
+  "main": "mint.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node mint.js",
+    "mint": "node mint.js",
+    "fast": "node fast-mint.js"
+  },
+  "dependencies": {
+    "ethers": "^6.9.0",
+    "dotenv": "^16.3.1"
+  }
+}
